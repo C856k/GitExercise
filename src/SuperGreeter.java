@@ -10,6 +10,9 @@ public class SuperGreeter {
         Scanner scan = new Scanner(System.in);
         String name = scan.next();
         System.out.println(" Hej " + name);
+        System.out.println("Hvor gammel er du?:");
+        int age = scan.nextInt();
+        System.out.println(" Du er: " + age);
     }
 
 }
